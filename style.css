@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background: linear-gradient(135deg ,rgb(3, 235, 146),rgb(209, 175, 209));
+}
+
+.container { 
+    background: rgba(255, 255, 255, .1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-right: 2px solid rgba(255, 255, 255, .2);
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+.top {
+    margin: 20px;
+    display: flex;
+}
+
+.top input {
+    height: 40px;
+    width: 220px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+input:focus {
+    outline: none;
+}
+
+#button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.top i {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 40px;
+}
+
+.center {
+    display: none;
+}
+
+.center img {
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px); 
+    border-radius: 10px;
+}
+
+.center h1{
+    margin-top: 20px;
+    color: white;
+    font-size: 60px;
+}
+
+.center h2 {
+    margin-top: 10px;
+    color: white;
+}
+
+.bottom {  
+    display: none;
+}
+
+.waterwind {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    color: white;
+}
+
+.water {
+    display: flex;
+    align-items: center;
+}
+
+.water i {
+    font-size: 25px;
+}
+
+.waterpara {
+    margin: 0 5px;
+    font-size: 20px;
+}
+
+.waterpara1 {
+    font-size: 13px;
+    padding-left: 70px;
+}
+
+.wind {
+    display: flex;
+    align-items: center;
+}
+
+.wind i {
+    font-size: 25px;
+}
+
+.windpara {
+    margin: 0 5px;
+}
+
+.windpara1 {
+    font-size: 13px;
+    padding-left: 100px;
+}
+
+.waterwindpara {
+    color: white;
+    display: flex;
+    margin-bottom: 20px;
+}
